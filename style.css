@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height:100%
+
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+
+}
+
+.header {
+    background: #CFE5F0;
+    width: 100%;
+    padding: 20px 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family:'Pacifico', cursive;
+}
+
+
+
+.nav__list {
+    display: flex;
+    column-gap:  50px;
+    font-size: 20px;
+    justify-content: center;
+    
+}
+
+.nav__link{
+    color:rgb(0, 0, 0)
+}
+
+.main {
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url(img/Bilbord_6000h3000\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.christmas1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 20px;
+}
+
+.christmas {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Caveat', cursive;;
+    
+}
+
+.main__desc {
+    max-width: 500px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.gif {
+    width: 250px;
+    height: 150px;
+    
+}
+
+.block {
+    padding-top: 283px;
+    padding-left: 1269px;
+}
+
+.food__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food__img {
+    height: 50px;
+}
+
+.offerce {
+    background-color:#CFE5F0;
+    padding-top: 150px;
+}
+
+
